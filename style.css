@@ -1,0 +1,63 @@
+body {
+    background-color: gray;
+    background-image: url('p.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(50px);
+    opacity: 0.9;
+    box-shadow: 4px 4px 5px #921f1f;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 100px auto;
+    width: 400px;
+    height: fit-content;
+  }
+
+  h2 {
+    text-align: center;
+    color: #ff0852;
+    text-shadow: 4px 5px 11px rgb(11, 153, 134);
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin: 10px 0px;
+    width: 95%;
+    color: #030102;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px #cccccc;
+  }
+
+  label {
+    color: #020101;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 4px 5px 11px rgb(11, 153, 134);
+  }
+
+  #btn {
+    margin: 10px auto;
+    padding: 10px;
+    margin: 10px 0px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px #cccccc;
+    color: #921313;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(138, 226, 138);
+  }
+
+  #btn:hover {
+    margin: 10px auto;
+    background-color: rgb(160, 224, 219);
+  } 
